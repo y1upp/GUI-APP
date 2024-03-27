@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.icaguiapplication.FurnitureTest.FurnitureTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.053 sec <<< FAILURE!
+com.mycompany.icaguiapplication.FurnitureTest.FurnitureTests.testTableClass()  Time elapsed: 0.044 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Table 3 made of C, diameter: 120cm, base type: pedestal, price: £150.0, quantity: 3> but was: <Table 3made of C,diameter: 120cm, base type: pedestal, price: £150.0,quantity 3>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at com.mycompany.icaguiapplication.FurnitureTest.FurnitureTests.testTableClass(FurnitureTests.java:63)
+
+com.mycompany.icaguiapplication.FurnitureTest.FurnitureTests.testChairClass()  Time elapsed: 0.007 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Chair 1 is made of A with armrests, price £50.0, quantity 2> but was: <Chair 1made of A with armrests, price: £50.0, quantity: 2>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at com.mycompany.icaguiapplication.FurnitureTest.FurnitureTests.testChairClass(FurnitureTests.java:44)
+
+com.mycompany.icaguiapplication.FurnitureTest.FurnitureTests.testDeskClass()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <80> but was: <0>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:510)
+	at com.mycompany.icaguiapplication.FurnitureTest.FurnitureTests.testDeskClass(FurnitureTests.java:51)
+
